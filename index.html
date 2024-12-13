@@ -49,7 +49,11 @@
     <script src="js/app.js"></script>
     <script src="./js/jquery.twentytwenty.js"></script>
 </head>
-
+<style>
+    .row {
+        margin-top: 10px; /* Adds spacing above the row */
+    }
+</style>
 
 <body>
     <div class="container" id="header" style="text-align: center; margin: auto;">
@@ -78,15 +82,15 @@
                 <a style="text-decoration:none">
                     Seungryong&nbsp;Kim<sup>3</sup>
                 </a>
-                <table class="author-table" id="author-table" style="border-collapse: collapse; width: 60%; margin: auto;">
+                <table class="author-table" id="author-table" style="border-collapse: collapse; width: 10%; margin: auto;">
                     <tr>
-                        <td style="padding: 0px; text-align: center;">
+                        <td style="padding: 5px; text-align: center;">
                             <sup>1</sup>Korea University
                         </td>
-                        <td style="padding: 0px; text-align: center;">
+                        <td style="padding: 5px; text-align: center;text-indent: 20px;">
                             <sup>2</sup>NAVER Cloud
                         </td>
-                        <td style="padding: 0px; text-align: center;">
+                        <td style="padding: 5px; text-align: center;">
                             <sup>3</sup>KAIST
                         </td>
                     </tr>
@@ -118,8 +122,29 @@
                     </ul>
                 </div>
         </div>
-
-
+        
+        <div class="text-center">
+            <!-- <div class="col-md-8 col-md-offset-2">
+                <div class="text-justify">
+                          Rigging pose
+                </div>
+            </div> -->
+        <video id="ide" width="65%" playsinline autoplay loop muted>
+            <source src="vid/5.mp4" type="video/mp4" />
+        </video>
+        <video id="ide" width="65%" playsinline autoplay loop muted>
+            <source src="vid/10.mp4" type="video/mp4" />
+        </video>
+        <video id="ide" width="65%" playsinline autoplay loop muted>
+            <source src="vid/13.mp4" type="video/mp4" />
+        </video>
+        <video id="ide" width="65%" playsinline autoplay loop muted>
+            <source src="vid/14.mp4" type="video/mp4" />
+        </video>
+        <!-- <video id="ide" width="65%" playsinline autoplay loop muted>
+            <source src="vid/30.mp4" type="video/mp4" />
+        </video> -->
+    </div>
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="text-center">
