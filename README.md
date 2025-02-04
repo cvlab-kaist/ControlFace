@@ -11,6 +11,7 @@
   </p>
   <h3 align="center"><a href="https://arxiv.org/abs/2412.01160">Paper </a> | <a href="https://cvlab-kaist.github.io/ControlFace">Project Page </a> </h3>
   <div align="center"></div>
+  <img src="./img/caption.png" width="100%">
   <img src="videos/1.gif" width="100%">
   <img src="videos/2.gif" width="100%">
   <img src="videos/3.gif" width="100%">
