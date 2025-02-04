@@ -11,18 +11,10 @@
   </p>
   <h3 align="center"><a href="https://arxiv.org/abs/2412.01160">Paper </a> | <a href="https://cvlab-kaist.github.io/ControlFace">Project Page </a> </h3>
   <div align="center"></div>
-  <video id="ide" width="100%" playsinline autoplay loop muted>
-      <source src="videos/1.mp4" type="video/mp4" />
-  </video>
-  <video id="ide" width="100%" playsinline autoplay loop muted>
-      <source src="videos/2.mp4" type="video/mp4" />
-  </video>
-  <video id="ide" width="100%" playsinline autoplay loop muted>
-      <source src="videos/3.mp4" type="video/mp4" />
-  </video>
-  <video id="ide" width="100%" playsinline autoplay loop muted>
-      <source src="videos/4.mp4" type="video/mp4" />
-  </video>
+  <img src="videos/1.gif" width="100%">
+  <img src="videos/2.gif" width="100%">
+  <img src="videos/3.gif" width="100%">
+  <img src="videos/4.gif" width="100%">
 </p>
 
 ## 1. Environment setup
