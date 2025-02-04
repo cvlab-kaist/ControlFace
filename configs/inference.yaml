@@ -1,0 +1,14 @@
+noise_scheduler_kwargs:
+  num_train_timesteps: 1000
+  beta_start:          0.00085
+  beta_end:            0.012
+  beta_schedule:       "scaled_linear"
+  steps_offset:        1
+  clip_sample:         false
+
+base_model_path: './pretrained_weights/sd-image-variations-diffusers'
+vae_model_path: './pretrained_weights/sd-vae-ft-mse'
+image_encoder_path: './pretrained_weights/sd-image-variations-diffusers/image_encoder'
+controlface_path: './pretrained_weights/ControlFace'
+
+enable_zero_snr: True 
