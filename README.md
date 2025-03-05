@@ -1,5 +1,6 @@
 <p align="center">
   <h1 align="center">ControlFace: Harnessing Facial Parametric Control for Face Rigging</h1>
+  <h3>CVPR 2025</h3>
   <p align="center">
      <a>Wooseok Jang</a>
     ·
